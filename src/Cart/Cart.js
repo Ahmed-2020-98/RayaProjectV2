@@ -35,6 +35,13 @@ export default function Cart() {
                         </div>
                         <div><span> Installments Unavailable </span><p> This order does not qualify for Raya Installments. To use Raya Installments, all items in cart must apply.</p></div>
                         <button className='btn text-white '>Pay With Raya Installments</button>
+                        <div></div>
+                        <button className='btn btn-primary'>Proceed To Checkout</button>
+                        <div className='d-flex justify-content-around'>
+                            <img src={"https://www.pngall.com/wp-content/uploads/2017/05/Visa-Logo-PNG-Pic.png"}/>
+                            <img src={"https://www.pngitem.com/pimgs/m/1-17788_mastercard-logo-transparent-vector-logo-png-mastercard-png.png"}/>
+                        </div>
+
 
                     </div>
                 </div>

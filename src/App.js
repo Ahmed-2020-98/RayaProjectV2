@@ -24,11 +24,11 @@ function App() {
 {/* <Nav/> */}
 {/* <Layout/> */}
 {/* <HomeLayout /> */}
-<Footer/>
 {/* <Register/> */}
 {/* <Login/> */}
 
 <Cart/>
+{/* <Footer/> */}
     </div>
   );
 }
