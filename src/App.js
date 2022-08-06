@@ -9,9 +9,10 @@ import Layout from './Layout/Layout';
 import Nav from './Navbar/nav';
 import Home from './Home/home';
 import HomeLayout from './component_Home/component_Home';
-import Footer from './AhmedComponent/Footer/Footer';
-import Login from './AhmedComponent/Login/Login';
-import Register from './AhmedComponent/Register/Register';
+import Footer from './Footer/Footer';
+import Login from './Login/Login';
+import Register from './Register/Register';
+import Cart from './Cart/Cart';
 
 
 
@@ -22,10 +23,12 @@ function App() {
     <div>
 {/* <Nav/> */}
 {/* <Layout/> */}
-<HomeLayout />
+{/* <HomeLayout /> */}
 <Footer/>
 {/* <Register/> */}
 {/* <Login/> */}
+
+<Cart/>
     </div>
   );
 }

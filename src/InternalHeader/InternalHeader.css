@@ -28,7 +28,7 @@
 }
 div .LogoIcon{
     width: 100px;
-    background: url(../../assets/Logo.jpg);
+    background: url(../assets/Logo.jpg);
 }
 
 @media (min-width: 481px) and (max-width:767px) {

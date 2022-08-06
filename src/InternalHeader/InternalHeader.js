@@ -14,7 +14,7 @@ export default function InternalHeader() {
                     <AiFillLock color='white' className='AiFillLock'/>
                     <span>Secure Checkout</span>
                 </div>
-                <div><img src={require('../../assets/Logo.jpg')}/></div>
+                <div><img src={require('../assets/Logo.jpg')}/></div>
                 <div> <FiPhoneCall className='FiPhoneCall'/> <span>Customer Support 19900</span></div>
             </div>
         </div>

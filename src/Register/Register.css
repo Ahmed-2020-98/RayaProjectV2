@@ -46,7 +46,7 @@
 
 }
 .imgbg{
-    background: url(../../assets/login-illustration.png);
+    background: url(../assets/login-illustration.png);
     background-repeat: no-repeat;
     background-size: contain;
     width: 555px;
