@@ -26,13 +26,13 @@ function App() {
 {/* <Nav/> */}
 {/* <Layout/> */}
 {/* <HomeLayout /> */}
-
 {/* <Footer/> */}
-<StoreLocator/>
+{/* <Home/> */}
+{/* <StoreLocator/> */}
 {/* <PayInstallment/> */}
 {/* <Register/> */}
 {/* <Login/> */}
-{/* <Cart/> */}
+<Cart/>
     </div>
   );
 }

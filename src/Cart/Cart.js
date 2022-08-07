@@ -16,10 +16,10 @@ export default function Cart() {
                 {/* eact product  */}
                 <div className='d-flex flex-column'>
 
-                <EachProduct/>
-                <EachProduct/>
-                <EachProduct/>
-                <EachProduct/>
+                <EachProduct media={"https://picsum.photos/128/128"} title={"OPPO Reno 6 Dual SIM, 128GB, 8GB RAM, 4G , Black"} cost={"6000"} quantity={2}/>
+                <EachProduct media={"https://picsum.photos/128/128"} title={"OPPO Reno 6 Dual SIM, 128GB, 8GB RAM, 4G , Black"} cost={"1200"} quantity={2}/>
+                
+                
                 </div>
                 {/* end eact product  */}
 

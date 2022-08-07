@@ -3,6 +3,13 @@
     padding-top: 50px;
     
 }
+.cartComponent h2{
+    font-size: 48px;
+    color: #001c46;
+    font-weight: 600;
+
+
+}
 .cartComponent p{
     font-size: 14px;
     color: #777;
@@ -12,11 +19,12 @@
     box-shadow: 0px 0px 11px 0px  rgb(85, 84, 84);
     width: 390px;
     border-radius: 20px 20px 20px 20px ;
-    background: #fff
+    background: #fff;
+    max-height: 701px;
 }
 
-.paymentSummary div h2{
-    font-size: 27px;
+.paymentSummary div h3{
+    font-size: 27px !important;
     color: #001c46;
     
 
@@ -44,7 +52,7 @@
     font-weight: normal;
 }
 .paymentSummary div div button:nth-of-type(1){
-    background-color: #80B6DB;
+    background-color: #006CB7;
     margin-top: 20px;
     width: 100%;
     height: 60px;
@@ -52,7 +60,7 @@
 
 }
 .paymentSummary div div button:nth-of-type(1):hover{
-    background-color: #80B6DB;
+    background-color: #006CB7;
     margin-top: 20px;
     width: 100%;
     height: 60px;
@@ -67,14 +75,21 @@
 }
 .paymentSummary div div button:nth-of-type(2){
     margin-top: 20px;
+    height:62px;
     background-color: #fff;
-    border: 3px solid #3b78d9e5;
-    color: #3b78d9e5;
+    border: 3px solid #007CCC;
+    color: #007CCC;
     width: 100%;
     font-size: 18px;
     font-weight: bold;
     border-radius: 30px 30px;
+    transition: all .4s;
+    
 
+}
+.paymentSummary div div button:nth-of-type(2):hover{
+    color: #fff;
+    background-color: #007CCC;
 }
 .paymentSummary div div div:nth-child(10) img{
     margin-top: 20px;
@@ -132,10 +147,34 @@ width: 50px !important;
     border-radius: 15px 15px ;
 }
 .eachProduct  span{
-    font-size: 25px;
+    font-size: 19px;
     color: #245bad;
     font-weight: 600;
 
+
+}
+.installment-plans-section{
+    max-width: 630px;
+    background-color: #E5f0f7;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 50px;
+    padding: 20px;
+    border-radius: 20px 20px ;
+
+
+
+    
+}
+.installment-plans-section p{
+    color: #001c46;
+    width: 100%;
+
+}
+.installment-plans-section a{
+    color: #006CB7;
+    font-size: 14px;
+    font-weight: 500;
 
 }
 /* end eachProduct */
@@ -221,6 +260,9 @@ width: 50px !important;
     .eachProduct{
         min-width: 481px
     }
+    .installment-plans-section{
+        max-width:481px;
+    }
     .paymentSummary{
         margin-top: 70px;
         min-width: 481px
@@ -248,6 +290,9 @@ width: 50px !important;
         max-height: 230px;
         max-width: 320px;
         margin: 0;
+    }
+    .installment-plans-section{
+        max-width:470px;
     }
     .paymentSummary{
         margin-top: 70px;
