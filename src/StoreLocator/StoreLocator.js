@@ -2,10 +2,12 @@ import React from "react";
 import "./StoreLocator.css";
 import { GrLocation } from "react-icons/gr";
 import { AiOutlinePhone } from "react-icons/ai";
-
+import Nav from '../Navbar/nav'
+import Footer from '../Footer/Footer'
 export default function StoreLocator() {
   return (
     <>
+    <Nav/>
       <div className="StoreLocator">
         <div className="container">
           <h1 className="heading">STORE LOCATOR</h1>
@@ -78,6 +80,7 @@ export default function StoreLocator() {
 
         </div>
       </div>
+      <Footer/>
     </>
   );
 }

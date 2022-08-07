@@ -9,11 +9,13 @@ import Layout from './Layout/Layout';
 import Nav from './Navbar/nav';
 import Home from './Home/home';
 import HomeLayout from './component_Home/component_Home';
-import Footer from './AhmedComponent/Footer/Footer';
-import Login from './AhmedComponent/Login/Login';
-import Register from './AhmedComponent/Register/Register';
-import Product_Details from './Product_Details/Product_Details';
-
+import Footer from './Footer/Footer';
+import Login from './Login/Login';
+import PayInstallment from './PayInstallment/PayInstallment';
+import Register from './Register/Register';
+import Cart from './Cart/Cart';
+import InternalHeader from './InternalHeader/InternalHeader'
+import StoreLocator from './StoreLocator/StoreLocator';
 
 
 
@@ -25,11 +27,12 @@ function App() {
 {/* <Layout/> */}
 {/* <HomeLayout /> */}
 {/* <Footer/> */}
+{/* <Home/> */}
+{/* <StoreLocator/> */}
+{/* <PayInstallment/> */}
 {/* <Register/> */}
 {/* <Login/> */}
-{/* <Televisions/> */}
-{/* <Mobiles_Tablets/> */}
-<Product_Details/>
+<Cart/>
     </div>
   );
 }

@@ -26,7 +26,7 @@
     background: #ffffff;
 }
 .imgbg{
-    background: url(../../assets/login-illustration.png);
+    background: url(../assets/login-illustration.png);
     background-repeat: no-repeat;
     background-size: contain;
     width: 555px;
@@ -92,12 +92,3 @@ margin-top: 8px;
 .link{
     text-align: right;
 }
-footer{
-    border-top: 1px solid #49525f56;
-    width: 100%;
-    padding-left: 100px;
-}
-footer a{
-    color: #006CB7;
-}
-
