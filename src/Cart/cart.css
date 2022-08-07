@@ -1,12 +1,18 @@
 .cartComponent{
+    background-image: url("https://www.rayashop.com/_nuxt/img/Rectangle.70e4436.png");
+    padding-top: 50px;
     
-    
+}
+.cartComponent p{
+    font-size: 14px;
+    color: #777;
 }
 .paymentSummary{
     
     box-shadow: 0px 0px 11px 0px  rgb(85, 84, 84);
     width: 390px;
     border-radius: 20px 20px 20px 20px ;
+    background: #fff
 }
 
 .paymentSummary div h2{
@@ -62,12 +68,191 @@
 .paymentSummary div div button:nth-of-type(2){
     margin-top: 20px;
     background-color: #fff;
-    border: 3px solid #1261e2e5;
-    color: #1261e2e5;
+    border: 3px solid #3b78d9e5;
+    color: #3b78d9e5;
     width: 100%;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 30px 30px;
 
 }
 .paymentSummary div div div:nth-child(10) img{
     margin-top: 20px;
     width: 70px;
 }
+    /* eachProduct */
+    
+.eachProduct{
+    max-height: 200px;
+    min-width: 400px;
+
+}
+.eachProduct img{
+    padding: 10px 10px 20px 20px;
+    border-radius: 10px 10px 10px 10px;
+    background-color: #fff;
+    border: 1px solid #fff;
+}
+.eachProduct a{
+    color: #001c46;
+    text-decoration: none;
+
+}
+.eachProduct input{
+width: 50px !important;
+
+}
+.eachProduct .AiOutlineHeart {
+    font-size: 20px;
+    transition: all .3s ease-in-out;
+    border: none;
+    background-color: #fff;
+    color: #001c46;
+    border-radius: 15px 15px ;
+}
+.eachProduct  .BsTrash {
+    font-size: 20px;
+    transition: all .3s ease-in-out;
+    border: none;
+    background-color: #fff;
+    color: #e93232;
+    border-radius: 15px 15px ;
+}
+.eachProduct .AiOutlineHeart:hover {
+    font-size: 24px;
+    background-color: #fff;
+    color: #001c46;
+    border-radius: 15px 15px ;
+
+}
+.eachProduct  .BsTrash:hover {
+    font-size: 20px;
+    background-color: #fff;
+    color: #f00;
+    border-radius: 15px 15px ;
+}
+.eachProduct  span{
+    font-size: 25px;
+    color: #245bad;
+    font-weight: 600;
+
+
+}
+/* end eachProduct */
+
+
+
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+  
+    /* CSS */
+    
+  }
+  
+  /* 
+    ##Device = Laptops, Desktops
+    ##Screen = B/w 1025px to 1280px
+  */
+  
+  @media (min-width: 1025px) and (max-width: 1280px) {
+    
+
+    
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (portrait)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) {
+    .forResponsCart{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .paymentSummary{
+        margin-top: 70px;
+        width: 600px;
+    }
+    
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (landscape)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    .forResponsCart{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .eachProduct{
+        min-width: 768px
+    }
+    .paymentSummary{
+        margin-top: 70px;
+        min-width: 768px
+    }
+
+    
+  }
+  
+  /* 
+    ##Device = Low Resolution Tablets, Mobiles (Landscape)
+    ##Screen = B/w 481px to 767px
+  */
+  
+  @media (min-width: 481px) and (max-width: 767px) {
+    .forResponsCart{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .eachProduct{
+        min-width: 481px
+    }
+    .paymentSummary{
+        margin-top: 70px;
+        min-width: 481px
+    }
+
+
+
+  }
+  
+  /* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+  
+  @media (min-width: 320px) and (max-width: 480px) {
+    
+    .forResponsCart{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        max-width: 320px;
+    }
+    .eachProduct{
+        max-height: 230px;
+        max-width: 320px;
+        margin: 0;
+    }
+    .paymentSummary{
+        margin-top: 70px;
+        min-width: 320px
+    }
+
+
+  }
