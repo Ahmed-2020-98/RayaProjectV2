@@ -5,6 +5,7 @@ export default function Register() {
   return (
     <>
     {/* <InternalHeader/> */}
+    <InternalHeader/>
      <div className='login'>
         <div className='container'>
       <div className='link3'><span>&lt;</span><a href='#'> Back</a></div>

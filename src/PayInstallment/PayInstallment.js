@@ -1,10 +1,13 @@
 import React from 'react'
 import './payInstallment.css'
+import Footer from '../Footer/Footer'
 import { FaCcMastercard } from "react-icons/fa";
 import {RiVisaLine} from "react-icons/ri";
+import Nav from '../Navbar/nav'
 export default function PayInstallment() {
   return (
     <>
+    <Nav/>
     <div className='payInstallment py-5'>
         <div className='container'>
             <div className='payInstallmentContent d-flex flex-column justify-content-center align-items-center py-5'>
@@ -29,7 +32,7 @@ export default function PayInstallment() {
             </div>
         </div>
     </div>
-    
+    <Footer/>
     </>
   )
 }

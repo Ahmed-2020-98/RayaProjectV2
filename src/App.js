@@ -11,9 +11,11 @@ import Home from './Home/home';
 import HomeLayout from './component_Home/component_Home';
 import Footer from './Footer/Footer';
 import Login from './Login/Login';
+import PayInstallment from './PayInstallment/PayInstallment';
 import Register from './Register/Register';
 import Cart from './Cart/Cart';
-
+import InternalHeader from './InternalHeader/InternalHeader'
+import StoreLocator from './StoreLocator/StoreLocator';
 
 
 
@@ -24,11 +26,13 @@ function App() {
 {/* <Nav/> */}
 {/* <Layout/> */}
 {/* <HomeLayout /> */}
+
+{/* <Footer/> */}
+<StoreLocator/>
+{/* <PayInstallment/> */}
 {/* <Register/> */}
 {/* <Login/> */}
-
-<Cart/>
-{/* <Footer/> */}
+{/* <Cart/> */}
     </div>
   );
 }
