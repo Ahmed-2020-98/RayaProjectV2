@@ -258,3 +258,91 @@ div{
     margin: 0 -10px;
      
   }
+
+.Product_Specifications{
+  border-radius: 20px;
+  background-color: #e5f0f7;
+  border: none;
+}
+.Product_Specifications_txt{
+  color: #707680;
+}
+.Product_Description_txt{
+  font-size: .9rem;
+  color: #65768f;
+}
+
+.Description_Line{
+  width: 100%; 
+  text-align: center; 
+  border-bottom: .01rem solid rgb(155, 155, 155); 
+  line-height: 0.1em;
+}
+
+.Details_Headers{
+  font-weight: 700;
+  font-size: 2rem;
+  font-family: Roboto, Arial, sans-serif;
+  color: #001c46;
+}
+.Viewed_Product{
+  background-image: url(../src/assets/BG_A.jpg);
+}
+.Card_Details{
+  background-color: white;
+  border-radius: 40px;
+  width: 27rem;
+  height: 27rem;
+
+}
+.Image_Card_Details{
+  outline: none;
+}
+.progress_Rating{
+  width: 80% !important;
+  height: .3rem !important;
+  background-color: #99c4e2 !important;
+}
+.progress_Rating_bg{
+  background-image: url("../src/assets/Progress.png");
+  background-size: 40rem;
+  background-position:initial;
+  background-repeat: no-repeat;
+}
+.btn-details-style{
+  background-color: white !important;
+  border: none !important;
+}
+.details_title{
+  font-weight: 700;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.4rem;
+}
+.badge_prop{
+  background-color: rgb(222, 0, 0) !important;
+}
+.Add_To_Cart{
+  background-color: #006cb7 !important;
+  border-radius: 20px !important;
+  font-weight: 500 !important;
+  color: #ffffff !important;
+  font-size: 1.125rem !important;
+  line-height: 1.75rem !important;
+}
+.Add_To_Compare{
+  background-color: #ffffff !important;
+  border-radius: 20px !important;
+  font-weight: 500 !important;
+  color: #006cb7 !important;
+  border-color: #006cb7 !important;
+  border: 2px solid  !important;
+  font-size: 1.125rem !important;
+  line-height: 1.75rem !important;
+}
+.line{
+  width: 100%; 
+  text-align: center; 
+  border-bottom: .1rem solid #5676a5; 
+  margin: 10px 0 20px; 
+  opacity: .2;
+}

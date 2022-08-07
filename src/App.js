@@ -12,6 +12,7 @@ import HomeLayout from './component_Home/component_Home';
 import Footer from './AhmedComponent/Footer/Footer';
 import Login from './AhmedComponent/Login/Login';
 import Register from './AhmedComponent/Register/Register';
+import Product_Details from './Product_Details/Product_Details';
 
 
 
@@ -22,10 +23,11 @@ function App() {
     <div>
 {/* <Nav/> */}
 {/* <Layout/> */}
-<HomeLayout />
-<Footer/>
+{/* <HomeLayout /> */}
+{/* <Footer/> */}
 {/* <Register/> */}
 {/* <Login/> */}
+<Product_Details/>
     </div>
   );
 }

@@ -281,7 +281,7 @@ export default class Home extends React.Component {
 
             <div
               className="slick-slide ProductCard flex-grow-1 d-flex flex-column shadow bg-white mx-3 my-2 position-relative"
-              style={{ width: "17rem" }}
+              style={{ width: "14.5rem" }}
             >
               <div className="d-flex position-absolute heart">
                 <FiHeart className="loveBtn grow" />
@@ -318,7 +318,7 @@ export default class Home extends React.Component {
              
             <div
               className="slick-slide ProductCard flex-grow-1 d-flex flex-column shadow bg-white mx-3 my-2 position-relative"
-              style={{ width: "17rem" }}
+              style={{ width: "14.5rem" }}
             >
               <div className="d-flex position-absolute heart">
                 <FiHeart className="loveBtn grow" />
@@ -354,7 +354,7 @@ export default class Home extends React.Component {
             </div>
             <div
               className="slick-slide ProductCard flex-grow-1 d-flex flex-column shadow bg-white mx-3 my-2 position-relative"
-              style={{ width: "17rem" }}
+              style={{ width: "14.5rem" }}
             >
               <div className="d-flex position-absolute heart">
                 <FiHeart className="loveBtn grow" />
@@ -390,7 +390,7 @@ export default class Home extends React.Component {
             </div>
             <div
               className="slick-slide ProductCard flex-grow-1 d-flex flex-column shadow bg-white mx-3 my-2 position-relative"
-              style={{ width: "17rem" }}
+              style={{ width: "14.5rem" }}
             >
               <div className="d-flex position-absolute heart">
                 <FiHeart className="loveBtn grow" />
@@ -426,7 +426,7 @@ export default class Home extends React.Component {
             </div>
             <div
               className="slick-slide ProductCard flex-grow-1 d-flex flex-column shadow bg-white mx-3 my-2 position-relative"
-              style={{ width: "17rem" }}
+              style={{ width: "14.5rem" }}
             >
               <div className="d-flex position-absolute heart">
                 <FiHeart className="loveBtn grow" />
@@ -462,7 +462,7 @@ export default class Home extends React.Component {
             </div>
             <div
               className="slick-slide ProductCard flex-grow-1 d-flex flex-column shadow bg-white mx-3 my-2 position-relative"
-              style={{ width: "17rem" }}
+              style={{ width: "14.5rem" }}
             >
               <div className="d-flex position-absolute heart">
                 <FiHeart className="loveBtn grow" />
@@ -498,7 +498,7 @@ export default class Home extends React.Component {
             </div>
             <div
               className="slick-slide ProductCard flex-grow-1 d-flex flex-column shadow bg-white mx-3 my-2 position-relative"
-              style={{ width: "17rem" }}
+              style={{ width: "14.5rem" }}
             >
               <div className="d-flex position-absolute heart">
                 <FiHeart className="loveBtn grow" />
@@ -534,7 +534,7 @@ export default class Home extends React.Component {
             </div>
             <div
               className="slick-slide ProductCard flex-grow-1 d-flex flex-column shadow bg-white mx-3 my-2 position-relative"
-              style={{ width: "17rem" }}
+              style={{ width: "14.5rem" }}
             >
               <div className="d-flex position-absolute heart">
                 <FiHeart className="loveBtn grow" />
@@ -570,7 +570,7 @@ export default class Home extends React.Component {
             </div>
             <div
               className="slick-slide ProductCard flex-grow-1 d-flex flex-column shadow bg-white mx-3 my-2 position-relative"
-              style={{ width: "17rem" }}
+              style={{ width: "14.5rem" }}
             >
               <div className="d-flex position-absolute heart">
                 <FiHeart className="loveBtn grow" />
@@ -606,7 +606,7 @@ export default class Home extends React.Component {
             </div>
             <div
               className="slick-slide ProductCard flex-grow-1 d-flex flex-column shadow bg-white mx-3 my-2 position-relative"
-              style={{ width: "17rem" }}
+              style={{ width: "14.5rem" }}
             >
               <div className="d-flex position-absolute heart">
                 <FiHeart className="loveBtn grow" />
@@ -674,7 +674,7 @@ export default class Home extends React.Component {
           <Slider className="slick-list col-10" {...settings}>
           <div
               className="slick-slide ProductCard flex-grow-1 d-flex flex-column shadow bg-white mx-3 my-2 position-relative"
-              style={{ width: "17rem" }}
+              style={{ width: "14.5rem" }}
             >
               <div className="d-flex position-absolute heart">
                 <FiHeart className="loveBtn grow" />
@@ -710,7 +710,7 @@ export default class Home extends React.Component {
             </div>
             <div
               className="slick-slide ProductCard flex-grow-1 d-flex flex-column shadow bg-white mx-3 my-2 position-relative"
-              style={{ width: "17rem" }}
+              style={{ width: "14.5rem" }}
             >
               <div className="d-flex position-absolute heart">
                 <FiHeart className="loveBtn grow" />
@@ -746,7 +746,7 @@ export default class Home extends React.Component {
             </div>
             <div
               className="slick-slide ProductCard flex-grow-1 d-flex flex-column shadow bg-white mx-3 my-2 position-relative"
-              style={{ width: "17rem" }}
+              style={{ width: "14.5rem" }}
             >
               <div className="d-flex position-absolute heart">
                 <FiHeart className="loveBtn grow" />
@@ -782,7 +782,7 @@ export default class Home extends React.Component {
             </div>
             <div
               className="slick-slide ProductCard flex-grow-1 d-flex flex-column shadow bg-white mx-3 my-2 position-relative"
-              style={{ width: "17rem" }}
+              style={{ width: "14.5rem" }}
             >
               <div className="d-flex position-absolute heart">
                 <FiHeart className="loveBtn grow" />
@@ -818,7 +818,7 @@ export default class Home extends React.Component {
             </div>
             <div
               className="slick-slide ProductCard flex-grow-1 d-flex flex-column shadow bg-white mx-3 my-2 position-relative"
-              style={{ width: "17rem" }}
+              style={{ width: "14.5rem" }}
             >
               <div className="d-flex position-absolute heart">
                 <FiHeart className="loveBtn grow" />
@@ -854,7 +854,7 @@ export default class Home extends React.Component {
             </div>
             <div
               className="slick-slide ProductCard flex-grow-1 d-flex flex-column shadow bg-white mx-3 my-2 position-relative"
-              style={{ width: "17rem" }}
+              style={{ width: "14.5rem" }}
             >
               <div className="d-flex position-absolute heart">
                 <FiHeart className="loveBtn grow" />
@@ -890,7 +890,7 @@ export default class Home extends React.Component {
             </div>
             <div
               className="slick-slide ProductCard flex-grow-1 d-flex flex-column shadow bg-white mx-3 my-2 position-relative"
-              style={{ width: "17rem" }}
+              style={{ width: "14.5rem" }}
             >
               <div className="d-flex position-absolute heart">
                 <FiHeart className="loveBtn grow" />
@@ -926,7 +926,7 @@ export default class Home extends React.Component {
             </div>
             <div
               className="slick-slide ProductCard flex-grow-1 d-flex flex-column shadow bg-white mx-3 my-2 position-relative"
-              style={{ width: "17rem" }}
+              style={{ width: "14.5rem" }}
             >
               <div className="d-flex position-absolute heart">
                 <FiHeart className="loveBtn grow" />
@@ -962,7 +962,7 @@ export default class Home extends React.Component {
             </div>
             <div
               className="slick-slide ProductCard flex-grow-1 d-flex flex-column shadow bg-white mx-3 my-2 position-relative"
-              style={{ width: "17rem" }}
+              style={{ width: "14.5rem" }}
             >
               <div className="d-flex position-absolute heart">
                 <FiHeart className="loveBtn grow" />
@@ -998,7 +998,7 @@ export default class Home extends React.Component {
             </div>
             <div
               className="slick-slide ProductCard flex-grow-1 d-flex flex-column shadow bg-white mx-3 my-2 position-relative"
-              style={{ width: "17rem" }}
+              style={{ width: "14.5rem" }}
             >
               <div className="d-flex position-absolute heart">
                 <FiHeart className="loveBtn grow" />
@@ -1034,7 +1034,7 @@ export default class Home extends React.Component {
             </div>
             <div
               className="slick-slide ProductCard flex-grow-1 d-flex flex-column shadow bg-white mx-3 my-2 position-relative"
-              style={{ width: "17rem" }}
+              style={{ width: "14.5rem" }}
             >
               <div className="d-flex position-absolute heart">
                 <FiHeart className="loveBtn grow" />
@@ -1070,7 +1070,7 @@ export default class Home extends React.Component {
             </div>
             <div
               className="slick-slide ProductCard flex-grow-1 d-flex flex-column shadow bg-white mx-3 my-2 position-relative"
-              style={{ width: "17rem" }}
+              style={{ width: "14.5rem" }}
             >
               <div className="d-flex position-absolute heart">
                 <FiHeart className="loveBtn grow" />
@@ -1106,7 +1106,7 @@ export default class Home extends React.Component {
             </div>
             <div
               className="slick-slide ProductCard flex-grow-1 d-flex flex-column shadow bg-white mx-3 my-2 position-relative"
-              style={{ width: "17rem" }}
+              style={{ width: "14.5rem" }}
             >
               <div className="d-flex position-absolute heart">
                 <FiHeart className="loveBtn grow" />
@@ -1142,7 +1142,7 @@ export default class Home extends React.Component {
             </div>
             <div
               className="slick-slide ProductCard flex-grow-1 d-flex flex-column shadow bg-white mx-3 my-2 position-relative"
-              style={{ width: "17rem" }}
+              style={{ width: "14.5rem" }}
             >
               <div className="d-flex position-absolute heart">
                 <FiHeart className="loveBtn grow" />
@@ -1184,7 +1184,7 @@ export default class Home extends React.Component {
           <Slider className="slick-list col-10" {...settings}>
           <div
               className="slick-slide ProductCard flex-grow-1 d-flex flex-column shadow bg-white mx-3 my-2 position-relative"
-              style={{ width: "17rem" }}
+              style={{ width: "14.5rem" }}
             >
               <div className="d-flex position-absolute heart">
                 <FiHeart className="loveBtn grow" />
@@ -1220,7 +1220,7 @@ export default class Home extends React.Component {
             </div>
             <div
               className="slick-slide ProductCard flex-grow-1 d-flex flex-column shadow bg-white mx-3 my-2 position-relative"
-              style={{ width: "17rem" }}
+              style={{ width: "14.5rem" }}
             >
               <div className="d-flex position-absolute heart">
                 <FiHeart className="loveBtn grow" />
@@ -1256,7 +1256,7 @@ export default class Home extends React.Component {
             </div>
             <div
               className="slick-slide ProductCard flex-grow-1 d-flex flex-column shadow bg-white mx-3 my-2 position-relative"
-              style={{ width: "17rem" }}
+              style={{ width: "14.5rem" }}
             >
               <div className="d-flex position-absolute heart">
                 <FiHeart className="loveBtn grow" />
@@ -1292,7 +1292,7 @@ export default class Home extends React.Component {
             </div>
             <div
               className="slick-slide ProductCard flex-grow-1 d-flex flex-column shadow bg-white mx-3 my-2 position-relative"
-              style={{ width: "17rem" }}
+              style={{ width: "14.5rem" }}
             >
               <div className="d-flex position-absolute heart">
                 <FiHeart className="loveBtn grow" />
@@ -1328,7 +1328,7 @@ export default class Home extends React.Component {
             </div>
             <div
               className="slick-slide ProductCard flex-grow-1 d-flex flex-column shadow bg-white mx-3 my-2 position-relative"
-              style={{ width: "17rem" }}
+              style={{ width: "14.5rem" }}
             >
               <div className="d-flex position-absolute heart">
                 <FiHeart className="loveBtn grow" />
@@ -1364,7 +1364,7 @@ export default class Home extends React.Component {
             </div>
             <div
               className="slick-slide ProductCard flex-grow-1 d-flex flex-column shadow bg-white mx-3 my-2 position-relative"
-              style={{ width: "17rem" }}
+              style={{ width: "14.5rem" }}
             >
               <div className="d-flex position-absolute heart">
                 <FiHeart className="loveBtn grow" />
@@ -1400,7 +1400,7 @@ export default class Home extends React.Component {
             </div>
             <div
               className="slick-slide ProductCard flex-grow-1 d-flex flex-column shadow bg-white mx-3 my-2 position-relative"
-              style={{ width: "17rem" }}
+              style={{ width: "14.5rem" }}
             >
               <div className="d-flex position-absolute heart">
                 <FiHeart className="loveBtn grow" />
@@ -1436,7 +1436,7 @@ export default class Home extends React.Component {
             </div>
             <div
               className="slick-slide ProductCard flex-grow-1 d-flex flex-column shadow bg-white mx-3 my-2 position-relative"
-              style={{ width: "17rem" }}
+              style={{ width: "14.5rem" }}
             >
               <div className="d-flex position-absolute heart">
                 <FiHeart className="loveBtn grow" />
@@ -1472,7 +1472,7 @@ export default class Home extends React.Component {
             </div>
             <div
               className="slick-slide ProductCard flex-grow-1 d-flex flex-column shadow bg-white mx-3 my-2 position-relative"
-              style={{ width: "17rem" }}
+              style={{ width: "14.5rem" }}
             >
               <div className="d-flex position-absolute heart">
                 <FiHeart className="loveBtn grow" />
@@ -1508,7 +1508,7 @@ export default class Home extends React.Component {
             </div>
             <div
               className="slick-slide ProductCard flex-grow-1 d-flex flex-column shadow bg-white mx-3 my-2 position-relative"
-              style={{ width: "17rem" }}
+              style={{ width: "14.5rem" }}
             >
               <div className="d-flex position-absolute heart">
                 <FiHeart className="loveBtn grow" />
@@ -1614,7 +1614,7 @@ export default class Home extends React.Component {
           <Slider className="slick-list col-10" {...settings}>
           <div
               className="slick-slide ProductCard flex-grow-1 d-flex flex-column shadow bg-white mx-3 my-2 position-relative"
-              style={{ width: "17rem" }}
+              style={{ width: "14.5rem" }}
             >
               <div className="d-flex position-absolute heart">
                 <FiHeart className="loveBtn grow" />
@@ -1650,7 +1650,7 @@ export default class Home extends React.Component {
             </div>
             <div
               className="slick-slide ProductCard flex-grow-1 d-flex flex-column shadow bg-white mx-3 my-2 position-relative"
-              style={{ width: "17rem" }}
+              style={{ width: "14.5rem" }}
             >
               <div className="d-flex position-absolute heart">
                 <FiHeart className="loveBtn grow" />
@@ -1686,7 +1686,7 @@ export default class Home extends React.Component {
             </div>
             <div
               className="slick-slide ProductCard flex-grow-1 d-flex flex-column shadow bg-white mx-3 my-2 position-relative"
-              style={{ width: "17rem" }}
+              style={{ width: "14.5rem" }}
             >
               <div className="d-flex position-absolute heart">
                 <FiHeart className="loveBtn grow" />
@@ -1722,7 +1722,7 @@ export default class Home extends React.Component {
             </div>
             <div
               className="slick-slide ProductCard flex-grow-1 d-flex flex-column shadow bg-white mx-3 my-2 position-relative"
-              style={{ width: "17rem" }}
+              style={{ width: "14.5rem" }}
             >
               <div className="d-flex position-absolute heart">
                 <FiHeart className="loveBtn grow" />
@@ -1758,7 +1758,7 @@ export default class Home extends React.Component {
             </div>
             <div
               className="slick-slide ProductCard flex-grow-1 d-flex flex-column shadow bg-white mx-3 my-2 position-relative"
-              style={{ width: "17rem" }}
+              style={{ width: "14.5rem" }}
             >
               <div className="d-flex position-absolute heart">
                 <FiHeart className="loveBtn grow" />
@@ -1794,7 +1794,7 @@ export default class Home extends React.Component {
             </div>
             <div
               className="slick-slide ProductCard flex-grow-1 d-flex flex-column shadow bg-white mx-3 my-2 position-relative"
-              style={{ width: "17rem" }}
+              style={{ width: "14.5rem" }}
             >
               <div className="d-flex position-absolute heart">
                 <FiHeart className="loveBtn grow" />
@@ -1830,7 +1830,7 @@ export default class Home extends React.Component {
             </div>
             <div
               className="slick-slide ProductCard flex-grow-1 d-flex flex-column shadow bg-white mx-3 my-2 position-relative"
-              style={{ width: "17rem" }}
+              style={{ width: "14.5rem" }}
             >
               <div className="d-flex position-absolute heart">
                 <FiHeart className="loveBtn grow" />
@@ -1866,7 +1866,7 @@ export default class Home extends React.Component {
             </div>
             <div
               className="slick-slide ProductCard flex-grow-1 d-flex flex-column shadow bg-white mx-3 my-2 position-relative"
-              style={{ width: "17rem" }}
+              style={{ width: "14.5rem" }}
             >
               <div className="d-flex position-absolute heart">
                 <FiHeart className="loveBtn grow" />
@@ -1902,7 +1902,7 @@ export default class Home extends React.Component {
             </div>
             <div
               className="slick-slide ProductCard flex-grow-1 d-flex flex-column shadow bg-white mx-3 my-2 position-relative"
-              style={{ width: "17rem" }}
+              style={{ width: "14.5rem" }}
             >
               <div className="d-flex position-absolute heart">
                 <FiHeart className="loveBtn grow" />
@@ -1938,7 +1938,7 @@ export default class Home extends React.Component {
             </div>
             <div
               className="slick-slide ProductCard flex-grow-1 d-flex flex-column shadow bg-white mx-3 my-2 position-relative"
-              style={{ width: "17rem" }}
+              style={{ width: "14.5rem" }}
             >
               <div className="d-flex position-absolute heart">
                 <FiHeart className="loveBtn grow" />
@@ -1974,7 +1974,7 @@ export default class Home extends React.Component {
             </div>
             <div
               className="slick-slide ProductCard flex-grow-1 d-flex flex-column shadow bg-white mx-3 my-2 position-relative"
-              style={{ width: "17rem" }}
+              style={{ width: "14.5rem" }}
             >
               <div className="d-flex position-absolute heart">
                 <FiHeart className="loveBtn grow" />
@@ -2010,7 +2010,7 @@ export default class Home extends React.Component {
             </div>
             <div
               className="slick-slide ProductCard flex-grow-1 d-flex flex-column shadow bg-white mx-3 my-2 position-relative"
-              style={{ width: "17rem" }}
+              style={{ width: "14.5rem" }}
             >
               <div className="d-flex position-absolute heart">
                 <FiHeart className="loveBtn grow" />
@@ -2046,7 +2046,7 @@ export default class Home extends React.Component {
             </div>
             <div
               className="slick-slide ProductCard flex-grow-1 d-flex flex-column shadow bg-white mx-3 my-2 position-relative"
-              style={{ width: "17rem" }}
+              style={{ width: "14.5rem" }}
             >
               <div className="d-flex position-absolute heart">
                 <FiHeart className="loveBtn grow" />
@@ -2082,7 +2082,7 @@ export default class Home extends React.Component {
             </div>
             <div
               className="slick-slide ProductCard flex-grow-1 d-flex flex-column shadow bg-white mx-3 my-2 position-relative"
-              style={{ width: "17rem" }}
+              style={{ width: "14.5rem" }}
             >
               <div className="d-flex position-absolute heart">
                 <FiHeart className="loveBtn grow" />
@@ -2118,7 +2118,7 @@ export default class Home extends React.Component {
             </div>
             <div
               className="slick-slide ProductCard flex-grow-1 d-flex flex-column shadow bg-white mx-3 my-2 position-relative"
-              style={{ width: "17rem" }}
+              style={{ width: "14.5rem" }}
             >
               <div className="d-flex position-absolute heart">
                 <FiHeart className="loveBtn grow" />
