@@ -27,6 +27,8 @@ function App() {
 {/* <Footer/> */}
 {/* <Register/> */}
 {/* <Login/> */}
+{/* <Televisions/> */}
+{/* <Mobiles_Tablets/> */}
 <Product_Details/>
     </div>
   );

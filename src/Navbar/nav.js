@@ -12,6 +12,7 @@ import { BsCart2 } from "react-icons/bs";
 
 import './nav.css'
 import { FaBars, FaTimes } from 'react-icons/fa';
+import { Link } from 'react-router-dom';
 
 const Nav = () => {
 
@@ -84,7 +85,9 @@ const Nav = () => {
 <div class="navbarr">
   <a href="#home"><MdLocalOffer color='red'/>HotDeals</a>
   <div class="subnav ">
-    <button class="subnavbtn">Mobiles&Tablets<i class="fa fa-caret-down"></i></button>
+
+<button class="subnavbtn">Mobiles&Tablets<i class="fa fa-caret-down"></i></button>
+   
     
     <div class=" subnav-content">
   
@@ -102,6 +105,7 @@ const Nav = () => {
   <li>Alcatel Phone</li>
     </ul>
   </a>
+  
   <a href="#team"><h4>Mobile Accessories</h4>
   <ul className='sub2nav'>
         <li>Power Banks</li>

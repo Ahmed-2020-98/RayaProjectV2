@@ -5,6 +5,7 @@ import StarRating from 'star-rating-react';
 import { FaSortAmountDown } from "react-icons/fa";
 
 
+
 const Mobiles_Tablets = () => {
 
 
@@ -38,7 +39,6 @@ const Mobiles_Tablets = () => {
 
 
                         <div className="d-flex flex-wrap justify-content-center">
-
                             <div className="ProductCard  d-flex flex-column flex-grow-1 shadow bg-white mx-3 my-2 position-relative" style={{ width: "14rem" }}>
                                 <div className="d-flex position-absolute heart">
                                     <FiHeart className="loveBtn grow" />
@@ -60,6 +60,7 @@ const Mobiles_Tablets = () => {
                                     </button>
                                 </div>
                             </div>
+                     
                             <div className="ProductCard  d-flex flex-column flex-grow-1 shadow bg-white mx-3 my-2 position-relative" style={{ width: "14rem" }}>
                                 <div className="d-flex position-absolute heart">
                                     <FiHeart className="loveBtn grow" />

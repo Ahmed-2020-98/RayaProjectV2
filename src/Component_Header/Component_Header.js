@@ -31,15 +31,15 @@ export default function Component_Header() {
                                 <div class="compareButton p-3 m-2 d-flex justify-content-center">
                                     Mobiles
                                 </div>
-                                <div className="mx-4"></div>
+                                <div className="mx-2"></div>
                                 <div class="compareButton p-3 m-2 d-flex justify-content-center">
                                     Mobile Accessories
                                 </div>
-                                <div className="mx-4"></div>
+                                <div className="mx-2"></div>
                                 <div class="compareButton p-3 m-2 d-flex justify-content-center">
                                     Tablet
                                 </div>
-                                <div className="mx-4"></div>
+                                <div className="mx-2"></div>
                                 <div class="compareButton p-3 m-2 d-flex justify-content-center">
                                     Feature Phones
                                 </div>

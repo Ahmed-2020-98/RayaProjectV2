@@ -15,6 +15,8 @@ import { BsCart2,BsShieldCheck } from "react-icons/bs"
 import {BsJournalBookmark} from "react-icons/bs"
 import {GrSecure} from "react-icons/gr"
 import {BiStoreAlt} from "react-icons/bi"
+
+
 export default function Product_Details() {
 
     const settings = {
@@ -182,22 +184,22 @@ export default function Product_Details() {
                                 </div>
                                 <div className='d-flex justify-content-center align-items-center'>
                                     <div><GrSecure size={30}/></div>
-                                    <div className='d-flex flex-column mx-3'>
+                                    <div className='d-flex flex-column mx-2'>
                                         <span>Secure Payment</span>
                                         <span className='Product_Specifications_txt'>Cash On Delivery</span>
                                     </div>
                                 </div>
                                 <div className='d-flex justify-content-center align-items-center'>
                                     <div><MdOutlineBook size={30}/></div>
-                                    <div className='d-flex flex-column mx-3'>
+                                    <div className='d-flex flex-column mx-2'>
                                         <span>Free Return</span>
                                         <span className='Product_Specifications_txt'>For 14 Days</span>
                                     </div>
                                 </div>
                                 <div className='d-flex justify-content-center align-items-center'>
                                     <div><BiStoreAlt size={30}/></div>
-                                    <div className='d-flex flex-column mx-3'>
-                                        <span className='w-75'>Sold By</span>
+                                    <div className='d-flex flex-column mx-2'>
+                                        <span>Sold By</span>
                                         <span className='Product_Specifications_txt'><a href='#'>Dream Store</a></span>
                                     </div>
                                 </div>
