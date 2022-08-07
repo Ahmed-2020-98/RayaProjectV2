@@ -1,12 +1,13 @@
 import React from 'react'
 import './cart.css'
 import EachProduct from './EachProduct';
-import { AiOutlineHeart } from 'react-icons/ai';
-import { BsTrash } from 'react-icons/bs';
+import Footer from '../Footer/Footer';
+import Nav from '../Navbar/nav';
 
 export default function Cart() {
   return (
     <>
+    <Nav/>
      <div className='cartComponent'>
         <div className='container d-flex flex-column align-items-center'>
             <h2>MY CART</h2>
@@ -67,6 +68,8 @@ export default function Cart() {
 
         </div>
      </div>
+
+     <Footer/>
 
     
     </>
