@@ -179,6 +179,39 @@ width: 50px !important;
 }
 /* end eachProduct */
 
+/* slider  */
+.SharedSliderComponent{
+    padding-bottom: 40px;
+    background-color: red;
+}
+ .SharedSliderNext {
+    
+    z-index: 1;
+    width: 50px;
+    height: 50px;
+    right: 30px;
+    background-color: transparent !important;
+}
+ .SharedSliderNext:before {
+    color: #528de4;
+    font-size: 41px;
+    opacity: .8;
+}
+
+.SharedSliderPrev{
+    left: 33px;
+    z-index: 1;
+    width: 50px;
+    height: 50px;
+    background-color: transparent !important;
+    
+}
+.SharedSliderPrev:before {
+    content: '←';
+    color: #528de4;
+    font-size: 41px;
+    opacity: .8;
+}
 
 
 /* 

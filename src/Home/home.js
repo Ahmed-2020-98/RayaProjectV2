@@ -275,7 +275,7 @@ export default class Home extends React.Component {
           
           <h1 className="h1">OUR TOP OFFERS</h1>
           
-
+          {/* mySlider  */}
           <Slider className="slick-list col-10" {...settings}>
             {/* <div className="d-flex flex-wrap">           */}
 

@@ -16,6 +16,7 @@ import Register from './Register/Register';
 import Cart from './Cart/Cart';
 import InternalHeader from './InternalHeader/InternalHeader'
 import StoreLocator from './StoreLocator/StoreLocator';
+import SliderShared from './Cart/Slider';
 
 
 
@@ -27,12 +28,14 @@ function App() {
 {/* <Layout/> */}
 {/* <HomeLayout /> */}
 {/* <Footer/> */}
-{/* <Home/> */}
+<Home/>
 {/* <StoreLocator/> */}
 {/* <PayInstallment/> */}
 {/* <Register/> */}
 {/* <Login/> */}
 <Cart/>
+
+{/* <SliderShared/> */}
     </div>
   );
 }
