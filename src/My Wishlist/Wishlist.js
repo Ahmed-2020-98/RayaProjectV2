@@ -32,7 +32,7 @@ export default function Wishlist() {
                                     </div>
                                     <p className="font-body text-sm">Xiaomi Redmi Note 11S Dual SIM, 128GB, 6GB RAM, 4G LTE, Blue</p>
                                     <span className="product-price">7,200 EGP</span>
-                                    <div data-v-6569f61a="" class="border border-secondary-200 w-full mt-1 mb-3"></div>
+                                    <div  col-lg-2 col-md-3 col-sm-4 col-12 class="border border-secondary-200 w-full mt-1 mb-3"></div>
                                     <p className="font-body text-sm">From 480 EGP / 24 Months with Raya Installments</p>
                                     <button type="button" class="compareButton p-3 text-sm mb-2">
                                         <MdCompare className="mx-3" size={18} />
@@ -54,7 +54,7 @@ export default function Wishlist() {
                                     </div>
                                     <p className="font-body text-sm">Xiaomi Redmi Note 11S Dual SIM, 128GB, 6GB RAM, 4G LTE, Blue</p>
                                     <span className="product-price">7,200 EGP</span>
-                                    <div data-v-6569f61a="" class="border border-secondary-200 w-full mt-1 mb-3"></div>
+                                    <div  col-lg-2 col-md-3 col-sm-4 col-12 class="border border-secondary-200 w-full mt-1 mb-3"></div>
                                     <p className="font-body text-sm">From 480 EGP / 24 Months with Raya Installments</p>
                                     <button type="button" class="compareButton p-3 text-sm mb-2">
                                         <MdCompare className="mx-3" size={18} />
@@ -76,7 +76,7 @@ export default function Wishlist() {
                                     </div>
                                     <p className="font-body text-sm">Xiaomi Redmi Note 11S Dual SIM, 128GB, 6GB RAM, 4G LTE, Blue</p>
                                     <span className="product-price">7,200 EGP</span>
-                                    <div data-v-6569f61a="" class="border border-secondary-200 w-full mt-1 mb-3"></div>
+                                    <div  col-lg-2 col-md-3 col-sm-4 col-12 class="border border-secondary-200 w-full mt-1 mb-3"></div>
                                     <p className="font-body text-sm">From 480 EGP / 24 Months with Raya Installments</p>
                                     <button type="button" class="compareButton p-3 text-sm mb-2">
                                         <MdCompare className="mx-3" size={18} />
@@ -98,7 +98,7 @@ export default function Wishlist() {
                                     </div>
                                     <p className="font-body text-sm">Xiaomi Redmi Note 11S Dual SIM, 128GB, 6GB RAM, 4G LTE, Blue</p>
                                     <span className="product-price">7,200 EGP</span>
-                                    <div data-v-6569f61a="" class="border border-secondary-200 w-full mt-1 mb-3"></div>
+                                    <div  col-lg-2 col-md-3 col-sm-4 col-12 class="border border-secondary-200 w-full mt-1 mb-3"></div>
                                     <p className="font-body text-sm">From 480 EGP / 24 Months with Raya Installments</p>
                                     <button type="button" class="compareButton p-3 text-sm mb-2">
                                         <MdCompare className="mx-3" size={18} />
@@ -120,7 +120,7 @@ export default function Wishlist() {
                                     </div>
                                     <p className="font-body text-sm">Xiaomi Redmi Note 11S Dual SIM, 128GB, 6GB RAM, 4G LTE, Blue</p>
                                     <span className="product-price">7,200 EGP</span>
-                                    <div data-v-6569f61a="" class="border border-secondary-200 w-full mt-1 mb-3"></div>
+                                    <div  col-lg-2 col-md-3 col-sm-4 col-12 class="border border-secondary-200 w-full mt-1 mb-3"></div>
                                     <p className="font-body text-sm">From 480 EGP / 24 Months with Raya Installments</p>
                                     <button type="button" class="compareButton p-3 text-sm mb-2">
                                         <MdCompare className="mx-3" size={18} />
@@ -142,7 +142,7 @@ export default function Wishlist() {
                                     </div>
                                     <p className="font-body text-sm">Xiaomi Redmi Note 11S Dual SIM, 128GB, 6GB RAM, 4G LTE, Blue</p>
                                     <span className="product-price">7,200 EGP</span>
-                                    <div data-v-6569f61a="" class="border border-secondary-200 w-full mt-1 mb-3"></div>
+                                    <div  col-lg-2 col-md-3 col-sm-4 col-12 class="border border-secondary-200 w-full mt-1 mb-3"></div>
                                     <p className="font-body text-sm">From 480 EGP / 24 Months with Raya Installments</p>
                                     <button type="button" class="compareButton p-3 text-sm mb-2">
                                         <MdCompare className="mx-3" size={18} />
@@ -164,7 +164,7 @@ export default function Wishlist() {
                                     </div>
                                     <p className="font-body text-sm">Xiaomi Redmi Note 11S Dual SIM, 128GB, 6GB RAM, 4G LTE, Blue</p>
                                     <span className="product-price">7,200 EGP</span>
-                                    <div data-v-6569f61a="" class="border border-secondary-200 w-full mt-1 mb-3"></div>
+                                    <div  col-lg-2 col-md-3 col-sm-4 col-12 class="border border-secondary-200 w-full mt-1 mb-3"></div>
                                     <p className="font-body text-sm">From 480 EGP / 24 Months with Raya Installments</p>
                                     <button type="button" class="compareButton p-3 text-sm mb-2">
                                         <MdCompare className="mx-3" size={18} />
@@ -186,7 +186,7 @@ export default function Wishlist() {
                                     </div>
                                     <p className="font-body text-sm">Xiaomi Redmi Note 11S Dual SIM, 128GB, 6GB RAM, 4G LTE, Blue</p>
                                     <span className="product-price">7,200 EGP</span>
-                                    <div data-v-6569f61a="" class="border border-secondary-200 w-full mt-1 mb-3"></div>
+                                    <div  col-lg-2 col-md-3 col-sm-4 col-12 class="border border-secondary-200 w-full mt-1 mb-3"></div>
                                     <p className="font-body text-sm">From 480 EGP / 24 Months with Raya Installments</p>
                                     <button type="button" class="compareButton p-3 text-sm mb-2">
                                         <MdCompare className="mx-3" size={18} />

@@ -382,7 +382,7 @@ export default function Product_Details() {
                                     </p>
                                     <span className="product-price">7,200 EGP</span>
                                     <div
-                                        data-v-6569f61a=""
+                                        
                                         class="border border-secondary-200 w-full mt-1 mb-3"
                                     ></div>
                                     <p className="font-body text-sm">
@@ -419,7 +419,7 @@ export default function Product_Details() {
                                     </p>
                                     <span className="product-price">7,200 EGP</span>
                                     <div
-                                        data-v-6569f61a=""
+                                        
                                         class="border border-secondary-200 w-full mt-1 mb-3"
                                     ></div>
                                     <p className="font-body text-sm">
@@ -455,7 +455,7 @@ export default function Product_Details() {
                                     </p>
                                     <span className="product-price">7,200 EGP</span>
                                     <div
-                                        data-v-6569f61a=""
+                                        
                                         class="border border-secondary-200 w-full mt-1 mb-3"
                                     ></div>
                                     <p className="font-body text-sm">
@@ -491,7 +491,7 @@ export default function Product_Details() {
                                     </p>
                                     <span className="product-price">7,200 EGP</span>
                                     <div
-                                        data-v-6569f61a=""
+                                        
                                         class="border border-secondary-200 w-full mt-1 mb-3"
                                     ></div>
                                     <p className="font-body text-sm">
@@ -527,7 +527,7 @@ export default function Product_Details() {
                                     </p>
                                     <span className="product-price">7,200 EGP</span>
                                     <div
-                                        data-v-6569f61a=""
+                                        
                                         class="border border-secondary-200 w-full mt-1 mb-3"
                                     ></div>
                                     <p className="font-body text-sm">
@@ -563,7 +563,7 @@ export default function Product_Details() {
                                     </p>
                                     <span className="product-price">7,200 EGP</span>
                                     <div
-                                        data-v-6569f61a=""
+                                        
                                         class="border border-secondary-200 w-full mt-1 mb-3"
                                     ></div>
                                     <p className="font-body text-sm">
@@ -599,7 +599,7 @@ export default function Product_Details() {
                                     </p>
                                     <span className="product-price">7,200 EGP</span>
                                     <div
-                                        data-v-6569f61a=""
+                                        
                                         class="border border-secondary-200 w-full mt-1 mb-3"
                                     ></div>
                                     <p className="font-body text-sm">
@@ -635,7 +635,7 @@ export default function Product_Details() {
                                     </p>
                                     <span className="product-price">7,200 EGP</span>
                                     <div
-                                        data-v-6569f61a=""
+                                        
                                         class="border border-secondary-200 w-full mt-1 mb-3"
                                     ></div>
                                     <p className="font-body text-sm">
@@ -671,7 +671,7 @@ export default function Product_Details() {
                                     </p>
                                     <span className="product-price">7,200 EGP</span>
                                     <div
-                                        data-v-6569f61a=""
+                                        
                                         class="border border-secondary-200 w-full mt-1 mb-3"
                                     ></div>
                                     <p className="font-body text-sm">
@@ -707,7 +707,7 @@ export default function Product_Details() {
                                     </p>
                                     <span className="product-price">7,200 EGP</span>
                                     <div
-                                        data-v-6569f61a=""
+                                        
                                         class="border border-secondary-200 w-full mt-1 mb-3"
                                     ></div>
                                     <p className="font-body text-sm">
@@ -755,7 +755,7 @@ export default function Product_Details() {
                                 </p>
                                 <span className="product-price">7,200 EGP</span>
                                 <div
-                                    data-v-6569f61a=""
+                                    
                                     class="border border-secondary-200 w-full mt-1 mb-3"
                                 ></div>
                                 <p className="font-body text-sm">
@@ -791,7 +791,7 @@ export default function Product_Details() {
                                 </p>
                                 <span className="product-price">7,200 EGP</span>
                                 <div
-                                    data-v-6569f61a=""
+                                    
                                     class="border border-secondary-200 w-full mt-1 mb-3"
                                 ></div>
                                 <p className="font-body text-sm">
@@ -827,7 +827,7 @@ export default function Product_Details() {
                                 </p>
                                 <span className="product-price">7,200 EGP</span>
                                 <div
-                                    data-v-6569f61a=""
+                                    
                                     class="border border-secondary-200 w-full mt-1 mb-3"
                                 ></div>
                                 <p className="font-body text-sm">
