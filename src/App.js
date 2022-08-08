@@ -1,6 +1,7 @@
 import "./App.css";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+
 import Mobiles_Tablets from "./Mobiles&Tablets/Mobiles_Tablets";
 import Televisions from "./Televisions/Televisions";
 import Large_Appliances from "./Large Appliances/Large_Appliances";
@@ -18,9 +19,11 @@ import InternalHeader from "./InternalHeader/InternalHeader";
 import StoreLocator from "./StoreLocator/StoreLocator";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 
+
 function App() {
   return (
     <div>
+
       {/* <HomeLayout /> */}
       {/* <Footer/> */}
       {/* <StoreLocator/> */}
@@ -30,6 +33,7 @@ function App() {
       {/* <Cart/> */}
       {/* <Home/> */}
       {/* <Nav/> */}
+      {/* <SliderShared/> */}
       <Router>
       
         <Switch>
@@ -39,6 +43,9 @@ function App() {
           <Route path="/" exact component={Layout} />
         </Switch>
       </Router>
+
+  
+
     </div>
   );
 }
