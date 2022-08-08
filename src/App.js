@@ -28,13 +28,13 @@ function App() {
 {/* <Layout/> */}
 {/* <HomeLayout /> */}
 {/* <Footer/> */}
-<Home/>
+{/* <Home/> */}
 {/* <StoreLocator/> */}
 {/* <PayInstallment/> */}
 {/* <Register/> */}
 {/* <Login/> */}
 <Cart/>
-
+  
 {/* <SliderShared/> */}
     </div>
   );
