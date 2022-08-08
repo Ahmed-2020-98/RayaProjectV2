@@ -3,7 +3,7 @@ import Mobiles_Tablets from '../Mobiles&Tablets/Mobiles_Tablets';
 import SideFilter from '../SideFilter/SideFilter';
 import Nav from '../Navbar/nav';
 import Component_Header from '../Component_Header/Component_Header';
-import Footer from './../AhmedComponent/Footer/Footer';
+import Footer from './../Footer/Footer';
 import Product_Details from '../Product_Details/Product_Details';
 
 export default function Layout() {

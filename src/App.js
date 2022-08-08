@@ -16,6 +16,8 @@ import Register from './Register/Register';
 import Cart from './Cart/Cart';
 import InternalHeader from './InternalHeader/InternalHeader'
 import StoreLocator from './StoreLocator/StoreLocator';
+import Product_Details from './Product_Details/Product_Details';
+import Wishlist from './My Wishlist/Wishlist';
 
 
 
@@ -32,7 +34,9 @@ function App() {
 {/* <PayInstallment/> */}
 {/* <Register/> */}
 {/* <Login/> */}
-<Cart/>
+{/* <Product_Details/> */}
+<Wishlist/>
+{/* <Cart/> */}
     </div>
   );
 }
