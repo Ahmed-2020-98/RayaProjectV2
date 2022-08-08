@@ -3,23 +3,7 @@ import './cart.css'
 import EachProduct from './EachProduct';
 import Footer from '../Footer/Footer';
 import Nav from '../Navbar/nav';
-import Slider from "react-slick";
-import { MdCompare } from "react-icons/md";
-import { FiHeart } from "react-icons/fi";
-import image1 from "../../src/assets/image1.webp";
-import image3 from "../../src/assets/image3.webp";
-import image2 from "../../src/assets/image2.webp";
-import image4 from "../../src/assets/image4.webp";
-import image5 from "../../src/assets/image5.webp";
-import image6 from "../../src/assets/image6.webp";
-import image7 from "../../src/assets/image7.webp";
-import image from "../../src/assets/image.webp";
-import mob3 from "../assets/mob3.jpg";
-import download1 from "../assets/download1.webp";
-import offer from "../assets/offer.webp";
-import StarRating from "star-rating-react";
-import Carousel from "react-bootstrap/Carousel";
-import cool from "../assets/cool.webp";
+
 import SliderShared from './Slider';
 
 function SampleNextArrow(props) {

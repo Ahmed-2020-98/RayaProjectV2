@@ -12,6 +12,7 @@ import { BsCart2 } from "react-icons/bs";
 
 import './nav.css'
 import { FaBars, FaTimes } from 'react-icons/fa';
+import { Link } from 'react-router-dom';
 
 const Nav = () => {
 
@@ -35,9 +36,9 @@ const Nav = () => {
 
               <div className='oneRight '>
                 <ul>
-                  <li><a className='mx-5' href='#'> <BsWallet2 size={18}/>  Pay Installment</a></li>
+                  <li><Link className='mx-5' to='payinstallment'> <BsWallet2 size={18}/>  Pay Installment</Link></li>
                   <li><a className='mx-2' href='#'> <FiPhoneCall size={18}/>  Call 19900</a></li>
-                  <li><a className='mx-5' href='#'> <TbBuildingStore size={18}/>  Store Locator</a></li>
+                  <li><Link className='mx-5' to='storelocator'> <TbBuildingStore size={18}/>  Store Locator</Link></li>
                   <li><a href='#'><TbWorld size={18}/>  العربية</a></li>
                 </ul>
               </div>
@@ -73,7 +74,7 @@ const Nav = () => {
                  */}
                 
                 <div className='col-5 d-flex justify-content-end align-items-center'>
-                  <a className='Login me-4' href='#'>Login or Register</a>
+                  <Link className='Login me-4' to='login'>Login or Register</Link>
                   <a className='text-light ms-4 me-3' href='#'> <BsCart2 size={25}/> </a></div>
                
            </div>

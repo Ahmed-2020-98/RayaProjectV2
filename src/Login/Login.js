@@ -2,12 +2,13 @@ import React from 'react'
 import InternalHeader from '../InternalHeader/InternalHeader';
 import './Login.css';
 import './LoginResposive.css'
+import { Link } from 'react-router-dom';
 export default function Login() {
   return (<>
   <InternalHeader/>
     <div className='login'>
         <div className='container'>
-      <div className='link3'><span>&lt;</span><a href='#'> Back</a></div>
+      <div className='link3'><span>&lt;</span><Link to='/'> Back</Link></div>
             <div className='content '>
                 <div className='left'>
                   <div className='imgbg d-flex'>
