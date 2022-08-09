@@ -22,13 +22,50 @@ color: #fff;
     font-weight: bold;
     font-size: 21px;
     color: #fff;
+    
 
 }
 .footerUpper p{
-    color: #fff;
-    font-size: 14px;
+    color: #fff !important;
+    font-size: 14px !important;
+    font-weight: normal !important;
+    transition: all .2s ease-in-out;
+    position: relative;
 
 }
+.footerUpper p:hover::before{
+    content: '';
+    /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+    animation: lineAnimation 1s;
+    width: 30%;
+    height: 2px;
+    background-color: #FDBC38;
+    position: absolute;
+    bottom: -5px;
+    left: 0px
+
+}
+/* .footerUpper p:hover::before{
+    @keyframes lineAnimation {
+        0%{
+            width: 0%;
+        }
+       
+        50%{
+            width: 10%;
+        }
+      
+        100%{
+            width: 30%;
+        }
+    }
+} */
+.footerUpper p:hover{
+     font-weight: 700 !important;
+    
+    /* border-bottom: 2px solid #FDBC38 !important;  */
+}
+
 /* .footerUpper :nth-child(1){
   
    
