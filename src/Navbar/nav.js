@@ -75,7 +75,7 @@ const Nav = () => {
                 
                 <div className='col-5 d-flex justify-content-end align-items-center'>
                   <Link className='Login me-4' to='login'>Login or Register</Link>
-                  <a className='text-light ms-4 me-3' href='#'> <BsCart2 size={25}/> </a></div>
+                  <Link className='text-light ms-4 me-3' to='cart'> <BsCart2 size={25}/> </Link></div>
                
            </div>
     

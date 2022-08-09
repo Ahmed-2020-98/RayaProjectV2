@@ -37,9 +37,11 @@ function App() {
       <Router>
       
         <Switch>
-          <Route path="/login" exact component={Login} />
-          <Route path="/payinstallment" exact component={PayInstallment} />
-          <Route path="/storelocator" exact component={StoreLocator} />
+          <Route path="/login" component={Login} />
+          <Route path="/register" component={Register} />
+          <Route path="/payinstallment"  component={PayInstallment} />
+          <Route path="/storelocator"  component={StoreLocator} />
+          <Route path="/cart"  component={Cart} />
           <Route path="/" exact component={Layout} />
         </Switch>
       </Router>

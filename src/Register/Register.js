@@ -1,28 +1,37 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import InternalHeader from '../InternalHeader/InternalHeader'
 import './Register.css'
+import { useParams,useHistory } from 'react-router-dom'
 export default function Register() {
+
+  const history=useHistory();
+  const params=useParams();
+  const handleChangeLogin =()=>{
+    history.push("/login")
+  }
+  
   return (
     <>
     {/* <InternalHeader/> */}
     <InternalHeader/>
-     <div className='login'>
+     <div className='register'>
         <div className='container'>
-      <div className='link3'><span>&lt;</span><a href='#'> Back</a></div>
+      <div className='link3'><span>&lt;</span><Link to='/login'> Back</Link></div>
             <div className='content '>
              
                 <div className='rightRigister'>
-                  <h1>CREATE ACCOUNT</h1>
+                  <h1>CREATE ACCOUNT </h1>
                   <h2>Login to your account for a faster checkout process</h2>
                   <form >
                     <input type="text" className='form-control' placeholder='Enter Name'/>
-                    {/* <span>This field is required</span> */}
+                    {/* <span className='validation'>This field is required</span> */}
                     <input type="text" className='form-control' placeholder='Enter Email'/>
-                    {/* <span>This field is required</span> */}
+                     {/* <span className='validation'>This field is required</span> */}
                     <input type="number" className='form-control' placeholder='Phone'/>
-                    {/* <span>This field is required</span> */}
+                     {/* <span className='validation'>This field is required</span> */}
                     <input type="password" className='form-control' placeholder='Enter Password'/>
-                    {/* <span>This field is required</span> */}
+                    {/* <span className='validation'>This field is required</span> */}
                     
                     <button className='btn button2Register'>Create Account</button>
                   </form>
@@ -36,14 +45,14 @@ export default function Register() {
                       <li>// Order Tracking</li>
                       <li>// Installments Tracking</li>
                     </ul>
-                    <button className='btn btn-light border-2 button1'>Login To My Account</button>
+                    <button  onClick={()=>handleChangeLogin()} className='btn btn-light border-2 button1'>Login To My Account</button>
                   </div>
                 </div>
             </div>
         </div>
         
     </div>
-            <footer>
+            <footer className='footerRegister'>
               <p>Any personal information you give us will be handled according to our <a href=''>Privacy Policy</a></p>
                 
             </footer>

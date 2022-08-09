@@ -5,7 +5,10 @@
 
 @media (min-width: 1406px ) {
   
-    /* CSS */
+  .login{
+    padding-top: 8vh;
+    height: 85vh;
+}
     
   }
   
@@ -63,7 +66,7 @@
         display: grid;
         grid-template-columns: 1fr;
     }
-    .left , .right{
+    .left , .rightLogin{
         padding-top: 20px;
        
     }
@@ -71,6 +74,19 @@
         width:100%;
         
     }
+    .rightRigister , form{
+      max-width: 380px;
+  }
+
+  .rightLogin input{
+      width: 100%;
+  }
+  .login .left{
+      max-width: 380px;
+  }
+  .login .left .imgbg{
+      max-width: 380px;
+  }
     
   }
   
@@ -85,10 +101,29 @@
         display: grid;
         grid-template-columns: 1fr;
     }
-    .left , .right{
-        padding-top: 20px;
-        height: 40vh;
+    .left {
+      padding-top: 33px;
+      max-height: 427px;
        
     }
+     .rightLogin{
+      padding-top: 33px;
+      height: 417px;
+       
+    }
+    .rightLogin , form{
+      max-width: 380px;
+  }
+
+  .rightLogin input{
+      width: 100%;
+  }
+  .login .left{
+      max-width: 380px;
+  }
+  .login .left .imgbg{
+      max-width: 380px;
+  }
+    
     
   }

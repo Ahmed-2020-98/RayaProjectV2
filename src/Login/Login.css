@@ -13,17 +13,20 @@
     color: #006CB7;
 }
 .content{
+    padding-top: 0px;
     display: grid;
     grid-template-columns: 1fr 1fr ;
 }
 
-.left , .right{
-    padding-top: 100px;
+.left , .rightLogin{
+    padding-top: 0px;
     height: 85vh;
 
 }
 .left{
     background: #ffffff;
+    margin-right: 39px;
+    margin-left: -23px;
 }
 .imgbg{
     background: url(../assets/login-illustration.png);
@@ -37,36 +40,48 @@
     color: #fff;
     padding-left: 50px;
 }
+.imgbg h1{
+    color: #fff;
+    margin: 0; 
+    text-align: start;
+    padding-bottom: 0;
+    padding-top: 0;
+    padding-left: 0;
+}
+.imgbg p{
+    color: #fff;
+}
 .imgbg ul{
     list-style: none;
 }
 .button1{
-    margin-top: 20px;
-    width: 211px;
-    border-radius: 20px;
-    font-size: 18px;
-    color: #006CB7;
-    font-weight: 600;
-    padding: 10px 0;
+    margin-top: 20px !important;
+    width: 286px  !important;
+    height: 55px  !important;
+    border-radius: 20px !important;
+    font-size: 18px !important;
+    color: #006CB7 !important;
+    font-weight: 600 !important;
+    padding: 10px 0 !important;
     
 }
-.right{
+.rightLogin{
 
     display: flex;
     flex-direction: column;
     align-items: center;
     
 }
-.right h1{
+.rightLogin h1{
 color: #001C46;
 font-size: 42px;
 }
-.right h2{
+.rightLogin h2{
 color: #667790;
 font-size: 14px;
 margin-top: 8px;
 }
-.right input{
+.rightLogin input{
 
     width: 100%;
     padding: 10px;
@@ -91,4 +106,18 @@ margin-top: 8px;
 }
 .link{
     text-align: right;
+}
+.footerLogin {
+
+}
+.footerLogin p{
+    font-size: 14px;
+    color: #001C46;
+    font-weight: normal;
+
+}
+.footerLogin a{
+    font-size: 14px;
+    font-weight: bold;
+    color: #006CB7;
 }
