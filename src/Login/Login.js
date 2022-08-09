@@ -1,9 +1,19 @@
 import React from 'react'
+import { useHistory } from 'react-router-dom';
 import InternalHeader from '../InternalHeader/InternalHeader';
 import './Login.css';
 import './LoginResposive.css'
 import { Link } from 'react-router-dom';
-export default function Login() {
+export default function Login(props) {
+  
+  console.log(props)
+  const history=useHistory()
+  
+  const handleChangeRegister =()=>{
+    history.push("/register")
+  }
+
+
   return (<>
   <InternalHeader/>
     <div className='login'>
@@ -19,10 +29,10 @@ export default function Login() {
                       <li>// Order Tracking</li>
                       <li>// Installments Tracking</li>
                     </ul>
-                    <button className='btn btn-light border-2 button1'>Create Account</button>
+                    <button className='btn btn-light border-2 button1' onClick={()=>handleChangeRegister()}>Create Account</button>
                   </div>
                 </div>
-                <div className='right'>
+                <div className='rightLogin'>
                   <h1>LOGIN</h1>
                   <h2>Login to your account for a faster checkout process</h2>
                 <form>

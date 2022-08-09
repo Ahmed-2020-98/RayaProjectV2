@@ -38,6 +38,7 @@ function App() {
       
         <Switch>
           <Route path="/login" component={Login} />
+          <Route path="/register" component={Register} />
           <Route path="/payinstallment"  component={PayInstallment} />
           <Route path="/storelocator"  component={StoreLocator} />
           <Route path="/cart"  component={Cart} />

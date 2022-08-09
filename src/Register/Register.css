@@ -13,26 +13,12 @@
     color: #006CB7;
 }
 .content{
-    padding-top: 50px;
+    padding-top: 0px;
     padding-bottom: 25px;
     display: grid;
     grid-template-columns: 1fr 1fr ;
 }
-@media (min-width: 320px) and (max-width: 1024px) {
-    .content{
-        grid-template-columns: 1fr;
-        padding-bottom: 10px;
-    } 
-    .imgbg{
-        height: 340px;
-        
-    }
-     .right{
-        height: 800px;
-        padding-bottom: 100px;
-    }
-    
-}
+
 
 .left , .right{
     padding-top: 100px;
@@ -127,7 +113,10 @@ margin-top: 8px;
     font-size: 14px;
     font-weight: 500;
 } */
-
+span.validation{
+color: #f00;
+padding-left: 20px;
+}
 .button2Register{
     margin-top: 20px !important;;
     width: 244px !important;;
@@ -151,4 +140,97 @@ color: #006CB7;
 }
 .link{
     text-align: right;
+}
+.footerRegister p{
+    font-size: 14px;
+    color: #001C46;
+    font-weight: normal;
+
+}
+.footerRegister a{
+    font-size: 14px;
+    font-weight: bold;
+    color: #006CB7;
+}
+
+
+/* responsive  */
+@media (min-width: 1281px) {
+  
+    .register{
+        padding-top: 8vh;
+        height: 85vh;
+    }
+    
+  }
+
+  @media (min-width: 768px) and (max-width: 1024px) {
+    .content{
+        grid-template-columns: 1fr;
+        padding-bottom: 10px;
+    } 
+    .imgbg{
+        height: 340px;
+        
+    }
+     .right{
+        height: 800px;
+        padding-bottom: 100px;
+    }
+ 
+
+}
+@media (min-width: 481px) and (max-width: 767px) {
+    .content{
+        grid-template-columns: 1fr;
+        padding-bottom: 10px;
+    } 
+    .imgbg{
+        height: 340px;
+        
+    }
+     .right{
+        height: 800px;
+        padding-bottom: 100px;
+    }
+    .rightRigister , form{
+        max-width: 380px;
+    }
+
+    .rightRigister input{
+        width: 100%;
+    }
+    .register .left{
+        max-width: 380px;
+    }
+    .register .left .imgbg{
+        max-width: 380px;
+    }
+}
+@media (min-width: 320px) and (max-width: 480px) {
+    .content{
+        grid-template-columns: 1fr;
+        padding-bottom: 10px;
+    } 
+    .imgbg{
+        height: 340px;
+        
+    }
+     .right{
+        height: 800px;
+        padding-bottom: 100px;
+    }
+    .rightRigister , form{
+        max-width: 380px;
+    }
+
+    .rightRigister input{
+        width: 100%;
+    }
+    .register .left{
+        max-width: 380px;
+    }
+    .register .left .imgbg{
+        max-width: 380px;
+    }
 }
