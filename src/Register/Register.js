@@ -1,16 +1,46 @@
-import React from 'react'
+import React ,{useState} from 'react'
 import { Link } from 'react-router-dom'
 import InternalHeader from '../InternalHeader/InternalHeader'
 import './Register.css'
 import { useParams,useHistory } from 'react-router-dom'
-export default function Register() {
+import { auth, db } from '../config/Config'
+
+
+export default function Register(props) {
 
   const history=useHistory();
   const params=useParams();
   const handleChangeLogin =()=>{
     history.push("/login")
   }
-  
+
+  const [name,setName]=useState('');
+  const [email,setEmail] = useState('')
+  const [phone,setPhone] =useState('')
+  const [password,setPassword] =useState('');
+  const [error,setError]=useState('')
+
+  const Signup=(e)=>{
+    e.preventDefault();
+    // console.log("submitted")
+    // console.log(name,email,phone,password)
+    auth.createUserWithEmailAndPassword(email, password).then((cred) => {
+      db.collection('SignedUpUsersData').doc(cred.user.uid).set({
+          name: name,
+          email:email,
+          phone:phone,
+          password: password
+      }).then(() => {
+          setName('');
+          setEmail('');
+          setPhone('');
+          setPassword('');
+          setError('');
+          props.history.push('/login');
+      }).catch(err => setError(err.message));
+  }).catch(err => setError(err.message));
+
+  }
   return (
     <>
     {/* <InternalHeader/> */}
@@ -23,15 +53,19 @@ export default function Register() {
                 <div className='rightRigister'>
                   <h1>CREATE ACCOUNT </h1>
                   <h2>Login to your account for a faster checkout process</h2>
-                  <form >
-                    <input type="text" className='form-control' placeholder='Enter Name'/>
-                    {/* <span className='validation'>This field is required</span> */}
-                    <input type="text" className='form-control' placeholder='Enter Email'/>
-                     {/* <span className='validation'>This field is required</span> */}
-                    <input type="number" className='form-control' placeholder='Phone'/>
-                     {/* <span className='validation'>This field is required</span> */}
-                    <input type="password" className='form-control' placeholder='Enter Password'/>
-                    {/* <span className='validation'>This field is required</span> */}
+                  <form onSubmit={Signup}>
+                    <input type="text" className='form-control' required placeholder='Enter Name'
+                    onChange={(e)=>setName(e.target.value)} value={name}/>
+                    {error && <span className='validation'>This field is required</span>}
+                    <input type="text" required className='form-control' placeholder='Enter Email'
+                    onChange={(e)=>setEmail(e.target.value)} value={email}/>
+                    {error && <span className='validation'>This field is required</span>}
+                    <input type="number" required className='form-control' placeholder='Phone'
+                    onChange={(e)=>setPhone(e.target.value)} value={phone}/>
+                    {error && <span className='validation'>This field is required</span>}
+                    <input type="password" required className='form-control' placeholder='Enter Password'
+                    onChange={(e)=>setPassword(e.target.value)} value={password}/>
+                   {error && <span className='validation'>This field is required</span>}
                     
                     <button className='btn button2Register'>Create Account</button>
                   </form>
