@@ -9,7 +9,7 @@ export default function SideFilter() {
   return (
     <>
       <div className=' d-flex  flex-column pt-4'>
-       
+        {/* <div className='col-2 '> */}
         <h2>Filter by</h2>
         <p>
           <a className="box" data-bs-toggle="collapse" href="#a" role="button" aria-expanded="false" aria-controls="collapseExample">
@@ -24,7 +24,7 @@ export default function SideFilter() {
         </p>
         <div className="collapse" id="a">
           <input type='range' min={0} max={400000} />
-          < div className='w-75 d-flex justify-content-between'>
+          < div className='w-100 d-flex justify-content-between'>
             <span>0</span>
             <span>400000</span>
           </div>
